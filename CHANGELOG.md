@@ -2,6 +2,14 @@
 
 What is new in each version of Obineer, newest first.
 
+## 0.1.3
+
+One title bar, as in VS Code and Discord.
+
+- Windows' own title bar is gone: its buttons sit in Obineer's bar, in the theme's colours, and follow when you change theme.
+- Obineer's mark sits beside the name, in the colour of the text – light on a dark theme, dark on a light one.
+- The search box is in the middle of the window, and the bar's buttons, icons and the window's own buttons line up.
+
 ## 0.1.2
 
 Projects from anywhere, a face of its own, and themes that reach the code.
