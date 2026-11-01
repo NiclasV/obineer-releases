@@ -2,6 +2,23 @@
 
 What is new in each version of Obineer, newest first.
 
+## 0.1.2
+
+Projects from anywhere, a face of its own, and themes that reach the code.
+
+**Projects**
+
+- The first start opens straight away – no folder to choose first.
+- The project list's *Add* has three ways in: *New project* (a name and a place – the folder is made and opens, ready to plan), *Add project* (one folder), and *Add a folder of projects* (every subfolder becomes a project; the folders are listed under the projects, to remove again).
+- The installer no longer asks where to install: Obineer goes in your own programs folder, so it never needs admin rights.
+
+**Looks**
+
+- Obineer has its own icon – in the taskbar, the Start menu and the installer.
+- Atom One Dark is the default colour theme. Six more: Dracula, GitHub Dark and Light, Tokyo Night, Catppuccin Mocha and Latte – all readable to WCAG 2.2 AA.
+- Code in the editor takes the theme's own colours, and in TypeScript and JavaScript functions, variables, parameters, properties and types are told apart, as in VS Code.
+- Your own theme reaches the code: *Settings › Appearance › Your own › Code* sets the colour of each kind of code.
+
 ## 0.1.1
 
 Agentic is now **Obineer** – Obby the engineer. Your settings, run history and Brains come along on the first start.
