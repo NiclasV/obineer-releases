@@ -2,6 +2,15 @@
 
 What is new in each version of Obineer, newest first.
 
+## 0.1.4
+
+Brains and approvals, clearer.
+
+- Building a Brain for a domain opens the Brain agent's chat on it, so its questions and approvals are in front of you instead of waiting unseen.
+- Each project card shows which Brain its agent follows; click it to choose another.
+- The Brain agent stays in the Brain view – never a card on the Workspace – and the Brain button in the rail tells when it works or waits for you.
+- Settings › Claude Code shows each Brain's saved approvals too, the approval card says where a rule is saved, and a web fetch can be allowed for every site at once.
+
 ## 0.1.3
 
 One title bar, as in VS Code and Discord.
