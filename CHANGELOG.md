@@ -2,6 +2,19 @@
 
 What is new in each version of Obineer, newest first.
 
+## 0.1.5
+
+Fewer interruptions, and everything that waits for you in one place.
+
+- *Waiting for you* in the rail gathers every agent that waits for an approval or an answer, from every project, then the boards' open questions and waiting cards. One click answers.
+- *Tools* in the rail shows everything your agents can use – MCP servers, skills, subagents, commands, hooks, plugins and the programs on your computer – how often each is used, and what looks wrong.
+- When Claude Code updates itself, Obineer checks that it still has everything Obineer uses, and says plainly what is missing if not.
+- Obineer now remembers your theme, language, layout and the release notes you have read between starts.
+- A new permission mode, Auto: Claude Code runs routine work, commands too, and asks only for what it judges risky. Choose it for one message or as the default in Settings.
+- The approval card has *All Bash this run*: one click, and the rest of the run's shell commands run without asking. Nothing is saved.
+- After a restart, a run that was cut off no longer shows an approval you cannot answer. It says it was interrupted, with Run again.
+- The project manager on a card mentions the board's questions calmly – "when you have time" – and a click opens the board's Inbox where they are.
+
 ## 0.1.4
 
 Brains and approvals, clearer.
