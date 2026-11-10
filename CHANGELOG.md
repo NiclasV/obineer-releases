@@ -2,6 +2,24 @@
 
 What is new in each version of Obineer, newest first.
 
+## 0.1.6
+
+Work like you do in VS Code – and see why your Brain stops you.
+
+- The chat input works like Claude Code in VS Code: one box with a toolbar – **+** for files, the model, the file open in the editor (sent along as context, **×** leaves it out), the mode with its icon, and send.
+- Approvals ask "Allow the agent to use Bash?" with numbered choices: Yes, Yes for this run, Yes for all of the tool, Don't ask again…, or No with a word to the agent. Press 1–5 to choose, Esc to deny.
+- Right-click a tab: close it, the others, those to the right, the saved ones or all, or copy its path. Unsaved tabs ask once.
+- Code reads like in VS Code: 15 px with roomy lines, bracket pair colours and the scope you are in kept at the top.
+- Zoom the app with Ctrl + and Ctrl − (Ctrl 0 resets). The level shows for a moment, the status bar keeps it while it is not 100 %, and the next start opens at it.
+- A project's plan and own Brain are found even a few folders down, like `httpdocs/.obineer` – not only at the project's root.
+- When a gate in your Brain stops or flags the agent's work, the chat says which rule, why it matters and where it lives, with a link to the flow.
+- *Fill the gap* shows how the fill goes, with *Follow it*, and a later run says when it read the new knowledge. The Brain agent's task is titled in your language.
+- *Focus* in the status bar: only the project in focus interrupts you; the others keep working and wait in *Waiting for you*.
+- Everything that says something waits for you now agrees – the tab title, the status bar, the badges and the list – and failed or quiet agents are listed too, with *Open*.
+- If Obineer was rebuilt while it ran, it says so and asks you to restart, instead of new screens talking to an old server.
+- New Brains come with a skill for plain answers: the result first, what was really done, no filler.
+- A Brain task is shown under the Brain it works in, never another one's name.
+
 ## 0.1.5
 
 Fewer interruptions, and everything that waits for you in one place.
