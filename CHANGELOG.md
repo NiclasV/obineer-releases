@@ -2,6 +2,17 @@
 
 What is new in each version of Obineer, newest first.
 
+## 0.1.7
+
+Models by their real names, Fable, and a chat that shows it is working.
+
+- The model list offers **Fable** too: Fable, Opus, Sonnet, Haiku – most capable first.
+- Models are named by what they run as: **Opus 5.5**, **Sonnet 5.5**, **Haiku 5.5**. When Claude releases a new model and Claude Code is updated, the new name shows by itself. A model that has not run yet shows its family name until its first run.
+- The explanations under *Model* and *Stages* sit behind an **i**: hover or focus it to read them. Map cards, columns and Settings use the same model names.
+- While an agent works, the chat's last line starts with three dots that rise in turn. They stand still while it waits for your approval or answer.
+- With only one Brain, the project card names it, and the project's details show which Brain it runs with. Before, nothing showed, though the project already used it.
+- In the Brain chat, the branch guard looks at the Brain you work in. A Brain inside a project follows the project's branches, and a Brain in a repository of its own is never warned about. Before, it could warn about *master* in another Brain's repository.
+
 ## 0.1.6
 
 Work like you do in VS Code – and see why your Brain stops you.
