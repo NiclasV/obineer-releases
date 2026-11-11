@@ -2,6 +2,15 @@
 
 What is new in each version of Obineer, newest first.
 
+## 0.1.8
+
+Rules that speak up only when they matter, and a process that fits the task.
+
+- Every task now gets a size: **small**, **normal** or **large**. A small task takes the short way through your Brain: a one-line plan, and the commit as its record. The chat shows the size beside the route report, so the short way is never silent. A risk such as personal data or a release always makes a task at least normal.
+- The rules in your Brain that a step rested on now sit as **one closed line under the answer** that cited them, instead of piling up open at the bottom of the chat. Open it to see each rule, why it matters, where it lives, and the way to the flow.
+- When a rule **stops or flags** the work, that line opens by itself and says so. Rules that were only checked and held stay folded, marked *Checked, held*. In the flow analysis, a held rule is a green hexagon.
+- The editor no longer marks `import … from './X.tsx'` as an error, the way Vite projects write imports.
+
 ## 0.1.7
 
 Models by their real names, Fable, and a chat that shows it is working.
