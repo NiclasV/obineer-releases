@@ -2,6 +2,18 @@
 
 What is new in each version of Obineer, newest first.
 
+## 0.1.9
+
+Runs that spend tokens in proportion to their task, and a way to see it.
+
+- Agents now **size a task before they read**, and read only what that size needs. Several requests in one prompt are done one at a time, and what a task found is saved in its card before it builds, so an interrupted run continues instead of starting over.
+- Every project gets a **code map**, `.obineer/CODEMAP.md`: each code file and what it exports, written from your files before every run. Agents look code up there instead of searching.
+- **Right agent, right task**: a scout on a cheap model finds code, a checker runs the build and tests, and chats in *Investigate* or *Review* use Sonnet unless you choose another model (Settings › Agents).
+- **Runs start much lighter**: a short tool list takes what every step re-reads from about 39k tokens to about 17k. Claude Code's own skills and PowerShell are left out of runs; switch it off in Settings › Claude Code if a run needs them. Your connectors stay.
+- Under a run, the chat shows **the whole run's cost** – steps per stage, new tokens and tokens read again – and warns when finding the way took more than the task's size allows.
+- **Health** tells you when a Brain does not send its tasks to the code map, and *Fix* lets the Brain surgeon bring it in line. The board check warns when `PROJECT.md` names a folder that is gone.
+- A project's **Experiments** place lists its latest tasks one by one – calls and tokens before the first edit – with *Measure again*. Switch on *Experiment mode* in Settings › Usage to see it.
+
 ## 0.1.8
 
 Rules that speak up only when they matter, and a process that fits the task.
