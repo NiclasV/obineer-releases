@@ -1,12 +1,21 @@
 # Obineer
 
 **From vibe coding to agentic engineering.**
+*This is anti-hype: a tool engineered to empower the builder in an agentic world.*
 
 Obineer is a Windows app for building software with AI agents – with method instead of luck. It runs several [Claude Code](https://docs.claude.com/en/docs/claude-code/overview) agents across your projects, each guided by a *Brain*: the knowledge and ways of working you build up yourself, so every task starts from what you have already learned.
 
 This repository holds Obineer's installers and release notes. It has no source code.
 
 **[Download the latest version →](../../releases/latest)**
+
+## Why: there is no one prompt
+
+You have seen the reels: *the one prompt that builds a $20,000 SaaS.* It does not exist. AI does exactly what you ask – and the hard part is knowing what to ask. A hundred and twenty steps and six thousand lines in, you find what is missing and ask why it was never done. The answer: *you didn't ask me to.*
+
+AI is strong, but it answers from what its model has learned, and where you leave a gap, it guesses. With the right skills, the right knowledge and the right structure it stops guessing about what matters. That structure is what Obineer gives every agent – a **Brain** – and the method around it asks the questions you would not have known to ask: a brief before the work, gates before it is done, and a reason you can read for every step.
+
+Obineer does not replace you with a prompt. It keeps you in control and makes you – and your agents – stronger.
 
 ## What it does
 
@@ -39,10 +48,6 @@ Everything stays on your machine. Obineer has no account, no cloud service and c
 - Each project's plan: a `.obineer/` folder inside the project, plain Markdown you can read and commit
 
 Uninstalling removes the program, never your data, your Brains or your projects.
-
-## The name
-
-*Obby* was its maker's nickname for years; Obineer is Obby the engineer – and the engineer in every agent it runs.
 
 ## Status
 

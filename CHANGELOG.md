@@ -2,6 +2,17 @@
 
 What is new in each version of Obineer, newest first.
 
+## 0.1.10
+
+One door to a sharp Brain, numbers you can trust, and the Brain in 3D.
+
+- **Tell the Brain surgeon what you want in your own words** – "my agent is slow", "I build Lovable apps for small firms" – and it decides whether to tune the Brain, add knowledge, build it for your speciality or start a new one, and says why in plain words. It sees how your latest tasks went with the Brain, tells you the before and after of a change, and how to undo it.
+- **A Brain built for a domain spends little from the start**: task sizes in the domain's words, a reading budget for each, and one real task measured before it is called ready.
+- **The line under an answer counts that answer** – its steps, stages and tokens. When the conversation has earlier messages, a second line gives the whole conversation, and the warning about too many reads no longer follows every follow-up.
+- **Follow-up messages cost less**: a conversation keeps the instructions it started with, so Claude's prompt cache is reused instead of written again.
+- **The Brain graph in 3D**: a 2D | 3D switch in the graph's corner shows the same Brain in space. Nodes float gently, sparks run along the links like signals, and you can grab a node and pull it – its neighbours follow and swing back. Drag the space to turn it, scroll to zoom, click a node to open it.
+- **The Flow view is gone.** The Brain view is Graph and Cards; stepping a run in the graph and the chat's links into Flow went with it. The route report, the task's size and the gates under an answer stay.
+
 ## 0.1.9
 
 Runs that spend tokens in proportion to their task, and a way to see it.
