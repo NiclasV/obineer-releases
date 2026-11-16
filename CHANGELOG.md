@@ -2,6 +2,21 @@
 
 What is new in each version of Obineer, newest first.
 
+## 0.1.11
+
+A task costs a fraction of what it did: Obineer now keeps the conversation small instead of asking the agent to.
+
+- **No 1M context unless you choose it.** If Claude Code's own default is a 1M model, runs now take the standard window, so a conversation is compacted in time instead of growing – every step sends all of it again. Settings › Agents › *Allow the long context window* turns it back on.
+- **The agent keeps to a reading budget.** Past its first reads it asks its scout – a cheap model with a conversation of its own – and builds and tests run in the checker, which returns only what failed. Obineer holds it to that instead of asking (Settings › Claude Code).
+- **Small tasks build on Sonnet.** When the agent has sized a task small or normal, the build after your go-ahead runs on Sonnet (Settings › Agents › *Model for building small tasks*).
+- **An approved plan builds in a new conversation.** When you leave plan mode to build and the planning conversation is large, the build starts fresh from the plan and the task's card, so the reading behind the plan is not sent again with every step.
+- **A large conversation says so.** Past 150k tokens the chat offers a new chat for the next task.
+- **Closing Obineer pauses its chats.** After a restart the next message starts a new conversation; *Resume* brings the old one back on purpose.
+- **Earlier conversations, as in Claude Code.** *Earlier* in the chat lists the project's conversations – from Obineer, VS Code or the terminal – with when, how many messages and how large each is; one click continues it.
+- **Setting up a Brain asks for a process level** – light, standard or thorough – and the Brain's chain follows it.
+- **The Brain graph has themes**: Nebula, Synthwave, Matrix, Blueprint and Mono, flat and in 3D, with soft nebula clouds in the 3D space. A node you drag in 3D stays where you let it go.
+- **Smaller fixes:** the line under an answer splits the steps by stage correctly (a card written while planning is no longer counted as Record); a diff in a narrow panel shows one line number per line and wraps long lines; Overview, Tools, Waiting for you and Settings share one layout.
+
 ## 0.1.10
 
 One door to a sharp Brain, numbers you can trust, and the Brain in 3D.
