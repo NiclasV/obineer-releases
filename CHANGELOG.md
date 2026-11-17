@@ -2,6 +2,18 @@
 
 What is new in each version of Obineer, newest first.
 
+## 0.1.12
+
+A tighter app: every view opens the same way, the Overview tells you more, and a first start meets you with a welcome.
+
+- **A welcome on the first start.** A fresh install opens on what Obineer is and the three ways to a project – instead of a changelog for a version you never had.
+- **A project's own numbers.** Click a project in the Overview (Most used or Today per project) and see tokens per day, cost, tasks and what one costs on average, the models and tools it used, the files it changed most and its latest tasks.
+- **A livelier Overview.** A trend in the tiles, when you work (weekday × hour, with your busiest hour), the model mix and how much the cache saved.
+- **Every view opens the same way.** Waiting for you, Settings, Tools and Overview share one frame: a title, a line on what the view is for, its buttons at the right, one width and one scroll.
+- **The 3D Brain in your theme.** It floats in a slowly moving sky of the theme's own colours, and dragging works as in 2D: a folder brings its branch, the others make room, and the Brain keeps the shape you give it (Shift moves just the node).
+- **One box on a card.** An opened card has one box to write about it: *Send* hands it to the agent, *Add comment* keeps it on the card.
+- **Smaller fixes:** *New chat* empties the chat at once – the old conversation stays under *Earlier*; long branch names no longer widen the Changes pane; a narrow window keeps the status bar and the project's tabs on one line.
+
 ## 0.1.11
 
 A task costs a fraction of what it did: Obineer now keeps the conversation small instead of asking the agent to.
