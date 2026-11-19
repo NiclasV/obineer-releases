@@ -2,6 +2,17 @@
 
 What is new in each version of Obineer, newest first.
 
+## 0.1.13
+
+Obineer asks what you would not know to ask, a Brain's stages fit the work instead of a fixed five, and the app tells you when a new version is out.
+
+- **Questions you would not know to ask.** Before the work, Refine brings up security, scale, data, hosting and tests in plain words – each with the answer it takes if you say nothing. Choose the areas in *Settings › Questions*.
+- **Asked before, not after.** Before the work is called done, the agent asks what the task touched but nobody settled, with a recommended answer. The Overview shows how often the question came before the work, and the Brain surgeon proposes the knowledge that settles the ones that keep coming back.
+- **Stages that fit the work.** A Brain has as many stages as the work needs – two or seven, in your own words – and Obineer counts the work in them. A stage can do several things, like a *Close* that checks and records.
+- **A lean new Brain.** A new Brain starts with three stages – Plan, Build, Close – and setup shapes them by how much process you want: two for light work, four for thorough.
+- **The surgeon shapes the chain.** Ask whether your stages fit: the surgeon sees how often each stage ran, how many steps it took and which checks caught anything, and proposes a shorter or longer chain from that – keeping every check that mattered.
+- **Updates in the app.** When a new version is out, the status bar says so and *Settings › About* shows what is new. The installed app downloads it on your click, checks it and installs when you quit; the portable version opens the download page.
+
 ## 0.1.12
 
 A tighter app: every view opens the same way, the Overview tells you more, and a first start meets you with a welcome.
